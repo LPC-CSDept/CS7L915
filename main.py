@@ -1,13 +1,19 @@
+def gtLeft(numbers):
+    """
+    ########################################
+    Code Your Program here
+    ########################################
+    """
+
 
 def main():
     mylist = [5, 10, 15, 25, 20, 55, 40]
-    #########################################
-    # Code your program here
-    #########################################
+    ret = gtLeft(mylist)
+    print(f'Return value is {ret}')
 
-    #########################################
-    # Do not delete the reutrn statement
-    return result
+    mylist = [5, 4, 3, 2, 1]
+    ret = gtLeft(mylist)
+    print(f'Return value is {ret}')
 
 
 if __name__ == '__main__':
